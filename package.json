@@ -1,0 +1,17 @@
+{
+  "name": "googlemaps_scraper_node",
+  "version": "1.0.0",
+  "description": "A Google Maps scraper using Puppeteer and Cheerio",
+  "main": "googlemaps.js",
+  "type": "module",
+  "scripts": {
+    "start": "node googlemaps.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "131.0.1",
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer-core": "^23.10.4",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.7.8"
+  }
+}
